@@ -6,7 +6,13 @@
     - [Description](#sottosezione-12)
 3. [Methods](#sezione-2)
     - [Workflow](#sottosezione-21)
-    - [Exploratory Data Analysis (EDA)](#sottosezione-22)
+    - [Exploratory Data Analysis](#sottosezione-22)
+    - [Machine Learning models](#sottosezione-23)
+    - [eXplainable Artificial Intelligence](#sottosezione-24)
+4. [Results](#sezione-3)
+    - [ML prediction](#sottosezione-31)
+    - [SHAP analysis](#sottosezione-32)
+5. [Conclusions](#sezione-4)
 
 ## Introduction
 [TO DO] Write a general introduction about the case study and the utility about this analysis.
@@ -24,4 +30,17 @@ The dataset used for this project comes from Kaggle at this link: https://www.ka
 ### Workflow
 [TO DO] An image of the workflow about all the methods used.
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis
+
+### Machine Learning models
+
+### eXplainable Artificial Intelligence
+
+## Results
+
+### ML prediction
+
+### SHAP analysis
+
+## Conclusions
+
