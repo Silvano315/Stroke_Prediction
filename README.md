@@ -25,7 +25,19 @@ In [[2](#ref2)], the World Stroke Organization (WSO) states that stroke continue
 ## Dataset
 
 ### Kaggle
-The dataset used for this project comes from Kaggle at this link: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
+The dataset used for this project comes from Kaggle at this link [[4](#ref4)] and it is stored in [raw_data](Stroke_Prediction/raw_data). This dataset is a csv file and it contains 5110 rows and 12 columns, which are:
+- id: unique identifier
+- gender: "Male", "Female" or "Other"
+- age: age of the patient
+- hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
+- heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
+- ever_married: "No" or "Yes"
+- work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+- Residence_type: "Rural" or "Urban"
+- avg_glucose_level: average glucose level in blood
+- bmi: body mass index
+- smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
+- stroke: 1 if the patient had a stroke or 0 if not
 
 ### Description
 [TO DO] General description about this dataset, number of patients and features.
@@ -54,4 +66,5 @@ The dataset used for this project comes from Kaggle at this link: https://www.ka
 1. <a name="ref1"></a> https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html
 2. <a name="ref2"></a> https://pubmed.ncbi.nlm.nih.gov/34986727/
 3. <a name="ref3"></a> https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(24)00038-3/fulltext
+4. <a name="ref4"></a> https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
 
