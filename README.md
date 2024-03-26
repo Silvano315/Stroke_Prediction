@@ -19,8 +19,8 @@
 
 Stroke is a brain attack. It occurs when either blood flow is obstructed in a brain region (ischemic stroke) or sudden bleeding in the brain (hemorrhagic stroke). The effects can lead to brain damage with loss of vision, speech, paralysis and, in many cases, death. 
 According to the World Health Organization (WHO)[[1](#ref1)], annually, 15 million people worldwide suffer a stroke. 5 million die and another 5 million are left permanently disabled. An important information also for this project is that stroke can occur in about 8% of children.
-In [2], the World Stroke Organization (WSO) states that stroke continues to be the second-leading cause of death and the third-leading cause of death and disability combined in the world. 
-[3] have made a systematic analysis about global, regional, and national burden of disorders affecting the nervous system and have found that, among 37 conditions affecting the nervous system, stroke is the leading group cause of Disability-adjusted life-years (DALYs) in 2021 for both adults aged 20–59 years, adults aged 60–79 years and adults aged 80 years and older.
+In [[2](#ref2)], the World Stroke Organization (WSO) states that stroke continues to be the second-leading cause of death and the third-leading cause of death and disability combined in the world. 
+[[3](#ref3)] have made a systematic analysis about global, regional, and national burden of disorders affecting the nervous system and have found that, among 37 conditions affecting the nervous system, stroke is the leading group cause of Disability-adjusted life-years (DALYs) in 2021 for both adults aged 20–59 years, adults aged 60–79 years and adults aged 80 years and older.
 
 ## Dataset
 
@@ -52,6 +52,6 @@ The dataset used for this project comes from Kaggle at this link: https://www.ka
 ## References
 
 1. <a name="ref1"></a> https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html
-2. https://pubmed.ncbi.nlm.nih.gov/34986727/
-3. https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(24)00038-3/fulltext
+2. <a name="ref2"></a> https://pubmed.ncbi.nlm.nih.gov/34986727/
+3. <a name="ref3"></a> https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(24)00038-3/fulltext
 
