@@ -78,20 +78,22 @@ In [SHAP.ipynb](/SHAP.ipynb), you could find:
 
 In this subsection, I will show you the results I obtained using Random Forest (the most performative classifier), but you could find and visualize all the results (mean and std values for every classifier, and for each iteration in the cross-validation) in [prediction.ipynb](/prediction.ipynb).
 
-Evaluation metrics 
+Evaluation metrics for the test sets:
 
 |                      | Random Forest             |
 |----------------------|---------------------------|
-|                      |  **Mean ± Std**                 |
+|                      |  **Mean ± Std**      |
 | Accuracy             | 0.94 ± 0.01          |
 | Precision            | 0.91 ± 0.01          |
 | Recall               | 0.97 ± 0.01          |
 | F1 Score             | 0.94 ± 0.01          |
 | AUC                  | 0.94 ± 0.01          |
 
-
-
 ### SHAP analysis
+
+In this subsection, I will show you the results I obtained using the SHAP algorithm. As you can see in [SHAP.ipynb](/SHAP.ipynb), the features are ordered in the same way with both RF feature importance and SHAP feature importance. The main advantage is to visualize how these features impact the model's stroke prediction and how their values are distirbuted. 
+For example, the higher values for age impact the decision-making of the model towards the stroke prediction and for high average glucose level the model tends to predict the patients with stroke and it has a greater impact respect to the lower values. It is clear that smoking patients have a greater impact on the stroke prediction model, as might be expected. The gender distribution is interesting and shows how female patients have a greater impact.
+Despite these useful results, I would have expected to find the features of hypertension and hearth_disease.
 
 ## Conclusions
 
