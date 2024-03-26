@@ -97,6 +97,8 @@ Despite these useful results, I would have expected to find the features of hype
 
 ## Conclusions
 
+The project aimed to train a machine learning model capable of predicting whether a patient is likely to get stroke. The results obtained are extremely satisfactory and highlight how the performances achieved by various classifiers are very high (>94% on the test set). These results are not only excellent in terms of accuracy, but also by observing the average values of precision, recall and auc you can see how the models maintain stable performance. The iterated cross-validation technique made it possible to make the model highly robust. The explainability with SHAP algorithm provided interesting insights into how the random forest used features for stroke prediction both globally and locally.
+
 ## References
 
 1. <a name="ref1"></a> https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html
