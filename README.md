@@ -76,6 +76,21 @@ In [SHAP.ipynb](/SHAP.ipynb), you could find:
 
 ### ML prediction
 
+In this subsection, I will show you the results I obtained using Random Forest (the most performative classifier), but you could find and visualize all the results (mean and std values for every classifier, and for each iteration in the cross-validation) in [prediction.ipynb](/prediction.ipynb).
+
+Evaluation metrics 
+
+|                      | Random Forest             |
+|----------------------|---------------------------|
+|                      |  **Mean ± Std**                 |
+| Accuracy             | 0.94 ± 0.01          |
+| Precision            | 0.91 ± 0.01          |
+| Recall               | 0.97 ± 0.01          |
+| F1 Score             | 0.94 ± 0.01          |
+| AUC                  | 0.94 ± 0.01          |
+
+
+
 ### SHAP analysis
 
 ## Conclusions
