@@ -66,6 +66,12 @@ There are also some appendix to see what happens for hyperparameters tuning (no 
 
 ### eXplainable Artificial Intelligence
 
+In order to increase transparency and interpretability to my project, I decided to implement the SHAP (SHapley Additive exPlanations) algorithm with Random Forest, that was the classifier with the best performances. This new module was used to interpret both the feature importance and features' impact on stroke prediction, understanding the underlying factors contributing for the machine learning decision-making process. This section is extremely useful to understand the enormous advantage to get the feature importance with Shapley values: they can show you both global and local explanations, they show the feature importance with the addition of feature values distribution and how they impact on the model prediction.
+In [SHAP.ipynb](/SHAP.ipynb), you could find:
+- SHAP implemented in a 10-folds CV without iterations with a final and discussed global explanation, and with a local explanation to show how a feature importance for a single instance could change respect to the global one.
+- SHAP implemented in a 10-folds CV iterated 5 times, showing global and local explanations with the average Shapley values.
+- An appendix with other possible plots that the SHAP algorithm could offer.
+
 ## Results
 
 ### ML prediction
