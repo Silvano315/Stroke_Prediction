@@ -25,7 +25,12 @@ In [[2](#ref2)], the World Stroke Organization (WSO) states that stroke continue
 ## Dataset
 
 ### Kaggle
-The dataset used for this project comes from Kaggle at this link [[4](#ref4)] and it is stored in [raw_data](Stroke_Prediction/raw_data). This dataset is a csv file and it contains 5110 rows and 12 columns, which are:
+
+The dataset used for this project comes from Kaggle at this link [[4](#ref4)] and it is stored in [raw_data](/raw_data). 
+
+### Description
+
+This dataset is a csv file and it contains 5110 rows and 12 columns, which are:
 - id: unique identifier
 - gender: "Male", "Female" or "Other"
 - age: age of the patient
@@ -38,9 +43,6 @@ The dataset used for this project comes from Kaggle at this link [[4](#ref4)] an
 - bmi: body mass index
 - smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
 - stroke: 1 if the patient had a stroke or 0 if not
-
-### Description
-[TO DO] General description about this dataset, number of patients and features.
 
 ## Methods
 
