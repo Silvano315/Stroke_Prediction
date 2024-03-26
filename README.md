@@ -1,14 +1,13 @@
-# Stroke_Prediction
+# Stroke Prediction
 
 1. [Introduction](#introduzione)
 2. [Dataset](#sezione-1)
     - [Kaggle](#sottosezione-11)
     - [Description](#sottosezione-12)
 3. [Methods](#sezione-2)
-    - [Workflow](#sottosezione-21)
-    - [Exploratory Data Analysis](#sottosezione-22)
-    - [Machine Learning models](#sottosezione-23)
-    - [eXplainable Artificial Intelligence](#sottosezione-24)
+    - [Exploratory Data Analysis](#sottosezione-21)
+    - [Machine Learning models](#sottosezione-22)
+    - [eXplainable Artificial Intelligence](#sottosezione-23)
 4. [Results](#sezione-3)
     - [ML prediction](#sottosezione-31)
     - [SHAP analysis](#sottosezione-32)
@@ -21,6 +20,8 @@ Stroke is a brain attack. It occurs when either blood flow is obstructed in a br
 According to the World Health Organization (WHO)[[1](#ref1)], annually, 15 million people worldwide suffer a stroke. 5 million die and another 5 million are left permanently disabled. An important information also for this project is that stroke can occur in about 8% of children.
 In [[2](#ref2)], the World Stroke Organization (WSO) states that stroke continues to be the second-leading cause of death and the third-leading cause of death and disability combined in the world. 
 [[3](#ref3)] have made a systematic analysis about global, regional, and national burden of disorders affecting the nervous system and have found that, among 37 conditions affecting the nervous system, stroke is the leading group cause of Disability-adjusted life-years (DALYs) in 2021 for both adults aged 20–59 years, adults aged 60–79 years and adults aged 80 years and older.
+
+This project aims to leverage machine learning and explainability techniques to predict whether a patient is likely to get stroke based on various demographic, lifestyle, and health-related factors.
 
 ## Dataset
 
@@ -46,12 +47,22 @@ This dataset is a csv file and it contains 5110 rows and 12 columns, which are:
 
 ## Methods
 
-### Workflow
-[TO DO] An image of the workflow about all the methods used.
-
 ### Exploratory Data Analysis
 
+Exploratory data analysis (EDA) techniques were employed to gain insights into dataset information and data visualization. In [eda.ipynb](/eda.ipynb), you could find:
+- how I managed NaN values with KNN imputation because of the “Missing Completely at Random” (MCAR) or “Missing at Random” (MAR) patterns.
+- the outliers detection and removal using several techniques and choosign the best one (for this case): the percentile method with 0.001 and 0.999.
+- the feature correlation heatmap with Pearson's correlation score.
+- Standardization for continuous numerical features and Encoding phase for categorical features.
+
 ### Machine Learning models
+
+In [prediction.ipynb](/prediction.ipynb), I showed you how:
+- I handled the dataset unbalanced for the target (stroke) using SMOTE.
+- I trained several machine learning models with default parameters (logistic regression, decision tree, random forest, gradient boosting, support vector machine, k-nearest neighbors, and naive Bayes) in a iterated 10-folds cross-validation in order to get robust and reliable results on train and test sets.
+- I evaluated the results according to some metrics: accuracy, precision, recall, f1 score, confusion matrix, auc and roc curve.
+
+There are also some appendix to see what happens for hyperparameters tuning (no significant changes in test performances, the dafault choice was the best one) and feature importance with Random Forest (best classifier found after analysis) and Gini Index.
 
 ### eXplainable Artificial Intelligence
 
