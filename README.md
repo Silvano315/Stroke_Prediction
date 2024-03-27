@@ -95,6 +95,8 @@ In this subsection, I will show you the results I obtained using the SHAP algori
 For example, the higher values for age impact the decision-making of the model towards the stroke prediction and for high average glucose level the model tends to predict the patients with stroke and it has a greater impact respect to the lower values. It is clear that smoking patients have a greater impact on the stroke prediction model, as might be expected. The gender distribution is interesting and shows how female patients have a greater impact.
 Despite these useful results, I would have expected to find the features of hypertension and hearth_disease.
 
+![Alt Text](images/global_shap.png)
+
 ## Conclusions
 
 The project aimed to train a machine learning model capable of predicting whether a patient is likely to get stroke. The results obtained are extremely satisfactory and highlight how the performances achieved by various classifiers are very high (>94% on the test set). These results are not only excellent in terms of accuracy, but also by observing the average values of precision, recall and auc you can see how the models maintain stable performance. The iterated cross-validation technique made it possible to make the model highly robust. The explainability with SHAP algorithm provided interesting insights into how the random forest used features for stroke prediction both globally and locally.
